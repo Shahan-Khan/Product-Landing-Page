@@ -1,4 +1,4 @@
-## Headphone Brand Landing Page
+## Product Landing Page
 
 ### Overview
 
@@ -12,8 +12,7 @@ This is a product landing page for a headphone brand, created using HTML, CSS, a
 - **Easy Navigation:** Includes a navbar for easy navigation.
 
 ### Screenshots
-
-
+![image](https://github.com/Shahan-Khan/Product-Landing-Page/assets/72437646/e809bee5-4329-4272-9dec-b8be91ebbfb4)
 
 ### Technologies Used
 
