@@ -1,0 +1,185 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+h1{
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: "Roboto";
+    font-weight: 200;
+}
+h3{
+    font-family: "Montserrat";
+}
+
+p{
+    font-family: 'Montserrat';
+}
+
+a{
+    font-family: 'consolas';
+}
+
+#title{
+    background-image: url('images/bg-1.gif');
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* height: 110vh;  */
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #fff;
+}
+
+.navbar {
+    background-color: transparent !important; 
+    padding-bottom: 7%;
+}
+/* .navbar-toggler-icon{
+    color: #fff;
+} */
+
+.navbar-nav .nav-link {
+    font-family: 'Montserrat';
+    color: #a5a5a5; /* Set text color for navbar links */
+    margin-right: 15px;
+    font-size: 1.1rem;
+    text-shadow: rgba(0, 0, 0, 0.377) 0px 3px 8px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Change text color on hover */
+}
+
+.navbar-brand{
+    font-family: 'Montserrat';
+    color: rgb(229, 242, 253);
+    font-size: 1rem; 
+    font-weight: 500; 
+}
+
+.cta-btn{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.title-image {
+    width: 30%;
+    margin-left: 70px;
+    position: absolute; 
+    
+}
+@media (max-width: 990px) {
+
+    #title{
+        text-align: center;
+        /* height: 80vh; */
+    }
+
+    .title-image{
+        position: static;
+        width: 40%;
+        margin: auto;
+        /* padding-top: 10%; */
+        margin-bottom: 20%;
+    }
+    .col{
+        padding: 3% 2%;
+    }
+}
+
+
+
+/* Feature section styling */
+#features{
+    background-color: #fff;
+      padding: 7% 15%;
+      /* position: relative; */
+      /* z-index: 1; */
+  }
+  .feature-box{
+      text-align: center;
+      padding: 3%;
+  }
+  
+  .feature-icon{
+      color: #b35248;
+      padding-bottom: 10%;
+  }
+  .feature-icon:hover{
+      color: #610a17;
+  }
+
+/* Pricing section styling */
+#pricing {
+    display: flex; 
+    align-items: center; 
+    flex-direction: column;
+    background-color: #f8f8f8;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.pricing-plans {
+    /* padding-top: 50px;
+    padding-left: 20px; */
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center; 
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.card-image{
+    height: 80%;
+    width: 80%;
+}
+
+.product2{
+    color: rgb(1, 1, 112);
+}
+.product3{
+    color: rgb(144, 144, 145);
+}
+.product4{
+    color: rgb(112, 0, 204);
+}
+
+/* Footer styling */
+footer {
+    background-color: #2b1313;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+    
+  }
+  .footer-icons{
+    color: #fff;
+    margin: 1rem 0.5rem;
+    padding-bottom: 1rem;
+  }
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out; /* Animation name, duration, and curve */
+  }
