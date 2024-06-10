@@ -36,4 +36,4 @@ You will need the following tools installed on your computer:
 
 1. **Clone the repo:**
    ```sh
-   git clone https://github.com/your-username/headphone-brand-landing-page.git
+   git clone https://github.com/Shahan-Khan/Product-Landing-Page.git
